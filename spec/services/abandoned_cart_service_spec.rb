@@ -1,4 +1,4 @@
-RSpec.describe Spree::AbandonedCartService do
+RSpec.describe AbandonedCartService do
   let!(:abandoned_order) { create(:order, item_total: 1_00) }
 
   describe '#perform' do
